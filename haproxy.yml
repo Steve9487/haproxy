@@ -1,6 +1,6 @@
 ---
 - name: Add a backend node to HAProxy
-  hosts: 10.10.10.148
+  hosts: all
   become: true
   gather_facts: false
   vars:
