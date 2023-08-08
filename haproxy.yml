@@ -7,7 +7,7 @@
     backend_name: app
     backend_servers:
       - name: server1
-        ip: 10.10.10.4
+        ip: test-backend.apps.cluster-xbfxw.xbfxw.sandbox920.opentlc.com
         port: 80
 
   tasks:
