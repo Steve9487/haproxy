@@ -6,7 +6,7 @@
   vars:
     backend_name: app
     backend_servers:
-      - name: server1
+      - name: test-backend.apps.cluster-xbfxw.xbfxw.sandbox920.opentlc.com
         ip: test-backend.apps.cluster-xbfxw.xbfxw.sandbox920.opentlc.com
         port: 80
 
