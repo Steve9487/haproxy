@@ -62,9 +62,12 @@ frontend app
     bind *:80
     default_backend app
     option forwardfor
+    option http-server-close
 
 backend app
     balance     roundrobin
+    http-send-name-header Host
+    option forwardfor
     {% for server in backend_servers %}
     server {{ server.name }} {{ server.ip }}:{{ server.port }} check
     {% endfor %}
