@@ -6,8 +6,8 @@
   vars:
     backend_name: app
     backend_servers:
-      - name: test-backend.apps.cluster-xbfxw.xbfxw.sandbox920.opentlc.com
-        ip: test-backend.apps.cluster-xbfxw.xbfxw.sandbox920.opentlc.com
+      - name: test-backend.apps.cluster-c6wqd.c6wqd.sandbox2982.opentlc.com
+        ip: test-backend.apps.cluster-c6wqd.c6wqd.sandbox2982.opentlc.com
         port: 80
 
   tasks:
